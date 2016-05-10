@@ -1,1 +1,1 @@
-# squad1-podcast
+# PodcastApp
