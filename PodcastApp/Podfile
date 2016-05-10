@@ -1,0 +1,29 @@
+platform :ios, '9.0'
+use_frameworks!
+inhibit_all_warnings!
+
+def common_pods
+ pod 'Alamofire', '~> 3.4'
+end
+
+def common_test_pods
+ pod 'OHHTTPStubs', '~> 4.7.0'
+ pod 'OHHTTPStubs/Swift'
+end
+
+xcodeproj 'PodcastApp'
+
+common_pods
+
+target :PodcastAppTests do
+ xcodeproj 'PodcastApp'
+ common_pods
+ common_test_pods
+end
+
+post_install do |installer|
+ installer.pods_project.targets.each do |target|
+  puts target.name
+ end
+end
+ 
