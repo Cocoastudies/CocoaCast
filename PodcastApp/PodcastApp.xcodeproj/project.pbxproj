@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		15FC746D1CE17B3C008C4175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC746C1CE17B3C008C4175 /* AppDelegate.swift */; };
-		15FC746F1CE17B3C008C4175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC746E1CE17B3C008C4175 /* ViewController.swift */; };
 		15FC74721CE17B3C008C4175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FC74701CE17B3C008C4175 /* Main.storyboard */; };
 		15FC74751CE17B3C008C4175 /* PodcastApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15FC74731CE17B3C008C4175 /* PodcastApp.xcdatamodeld */; };
 		15FC74771CE17B3C008C4175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FC74761CE17B3C008C4175 /* Assets.xcassets */; };
 		15FC747A1CE17B3C008C4175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FC74781CE17B3C008C4175 /* LaunchScreen.storyboard */; };
 		15FC74851CE17B3C008C4175 /* PodcastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC74841CE17B3C008C4175 /* PodcastAppTests.swift */; };
 		15FC74901CE17B3C008C4175 /* PodcastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC748F1CE17B3C008C4175 /* PodcastAppUITests.swift */; };
+		F2D0B7B61CF3E7CA00689E6D /* Podcasts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7B51CF3E7CA00689E6D /* Podcasts.storyboard */; };
+		F2D0B7B91CF3E7F800689E6D /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7B71CF3E7F800689E6D /* Favorites.storyboard */; };
+		F2D0B7BB1CF3E80900689E6D /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7BA1CF3E80900689E6D /* Library.storyboard */; };
+		F2D0B7BE1CF3E81D00689E6D /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7BC1CF3E81D00689E6D /* More.storyboard */; };
+		F2D0B7C01CF3E82D00689E6D /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7BF1CF3E82D00689E6D /* Player.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		15FC74691CE17B3B008C4175 /* PodcastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FC746C1CE17B3C008C4175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15FC746E1CE17B3C008C4175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15FC74711CE17B3C008C4175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15FC74741CE17B3C008C4175 /* PodcastApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PodcastApp.xcdatamodel; sourceTree = "<group>"; };
 		15FC74761CE17B3C008C4175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		15FC748B1CE17B3C008C4175 /* PodcastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FC748F1CE17B3C008C4175 /* PodcastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastAppUITests.swift; sourceTree = "<group>"; };
 		15FC74911CE17B3C008C4175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D0B7B51CF3E7CA00689E6D /* Podcasts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Podcasts.storyboard; sourceTree = "<group>"; };
+		F2D0B7B81CF3E7F800689E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Favorites.storyboard; sourceTree = "<group>"; };
+		F2D0B7BA1CF3E80900689E6D /* Library.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
+		F2D0B7BD1CF3E81D00689E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/More.storyboard; sourceTree = "<group>"; };
+		F2D0B7BF1CF3E82D00689E6D /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,13 @@
 		15FC746B1CE17B3C008C4175 /* PodcastApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2D0B7B21CF3E33F00689E6D /* Model */,
+				F2D0B7B41CF3E35B00689E6D /* View */,
+				F2D0B7B31CF3E34700689E6D /* Controller */,
+				F2D0B7B11CF3E33200689E6D /* Support */,
 				15FC746C1CE17B3C008C4175 /* AppDelegate.swift */,
-				15FC746E1CE17B3C008C4175 /* ViewController.swift */,
-				15FC74701CE17B3C008C4175 /* Main.storyboard */,
 				15FC74761CE17B3C008C4175 /* Assets.xcassets */,
-				15FC74781CE17B3C008C4175 /* LaunchScreen.storyboard */,
 				15FC747B1CE17B3C008C4175 /* Info.plist */,
-				15FC74731CE17B3C008C4175 /* PodcastApp.xcdatamodeld */,
 			);
 			path = PodcastApp;
 			sourceTree = "<group>";
@@ -126,6 +134,42 @@
 				15FC74911CE17B3C008C4175 /* Info.plist */,
 			);
 			path = PodcastAppUITests;
+			sourceTree = "<group>";
+		};
+		F2D0B7B11CF3E33200689E6D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		F2D0B7B21CF3E33F00689E6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15FC74731CE17B3C008C4175 /* PodcastApp.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F2D0B7B31CF3E34700689E6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F2D0B7B41CF3E35B00689E6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15FC74781CE17B3C008C4175 /* LaunchScreen.storyboard */,
+				15FC74701CE17B3C008C4175 /* Main.storyboard */,
+				F2D0B7B51CF3E7CA00689E6D /* Podcasts.storyboard */,
+				F2D0B7B71CF3E7F800689E6D /* Favorites.storyboard */,
+				F2D0B7BF1CF3E82D00689E6D /* Player.storyboard */,
+				F2D0B7BA1CF3E80900689E6D /* Library.storyboard */,
+				F2D0B7BC1CF3E81D00689E6D /* More.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +278,12 @@
 			files = (
 				15FC747A1CE17B3C008C4175 /* LaunchScreen.storyboard in Resources */,
 				15FC74771CE17B3C008C4175 /* Assets.xcassets in Resources */,
+				F2D0B7BE1CF3E81D00689E6D /* More.storyboard in Resources */,
 				15FC74721CE17B3C008C4175 /* Main.storyboard in Resources */,
+				F2D0B7B61CF3E7CA00689E6D /* Podcasts.storyboard in Resources */,
+				F2D0B7C01CF3E82D00689E6D /* Player.storyboard in Resources */,
+				F2D0B7BB1CF3E80900689E6D /* Library.storyboard in Resources */,
+				F2D0B7B91CF3E7F800689E6D /* Favorites.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FC746F1CE17B3C008C4175 /* ViewController.swift in Sources */,
 				15FC74751CE17B3C008C4175 /* PodcastApp.xcdatamodeld in Sources */,
 				15FC746D1CE17B3C008C4175 /* AppDelegate.swift in Sources */,
 			);
@@ -311,6 +359,22 @@
 				15FC74791CE17B3C008C4175 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D0B7B71CF3E7F800689E6D /* Favorites.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D0B7B81CF3E7F800689E6D /* Base */,
+			);
+			name = Favorites.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D0B7BC1CF3E81D00689E6D /* More.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D0B7BD1CF3E81D00689E6D /* Base */,
+			);
+			name = More.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
