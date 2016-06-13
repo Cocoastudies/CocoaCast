@@ -18,11 +18,14 @@
 		15FC747A1CE17B3C008C4175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FC74781CE17B3C008C4175 /* LaunchScreen.storyboard */; };
 		15FC74851CE17B3C008C4175 /* PodcastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC74841CE17B3C008C4175 /* PodcastAppTests.swift */; };
 		15FC74901CE17B3C008C4175 /* PodcastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC748F1CE17B3C008C4175 /* PodcastAppUITests.swift */; };
+		2C8C67521D0EF06C00E07A5D /* FrameWorksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C67511D0EF06C00E07A5D /* FrameWorksTableViewController.swift */; };
+		2C8C67541D0EF07700E07A5D /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C67531D0EF07700E07A5D /* MoreViewController.swift */; };
+		2C8C67561D0EF08000E07A5D /* AutoriaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C67551D0EF08000E07A5D /* AutoriaTableViewController.swift */; };
+		2C8C67581D0EF0DA00E07A5D /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8C67571D0EF0DA00E07A5D /* More.storyboard */; };
 		DBE3EA5A3F112345F463093C /* Pods_PodcastAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7650CA7D64805C1916D987CF /* Pods_PodcastAppTests.framework */; };
 		F2D0B7B61CF3E7CA00689E6D /* Podcasts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7B51CF3E7CA00689E6D /* Podcasts.storyboard */; };
 		F2D0B7B91CF3E7F800689E6D /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7B71CF3E7F800689E6D /* Favorites.storyboard */; };
 		F2D0B7BB1CF3E80900689E6D /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7BA1CF3E80900689E6D /* Library.storyboard */; };
-		F2D0B7BE1CF3E81D00689E6D /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7BC1CF3E81D00689E6D /* More.storyboard */; };
 		F2D0B7C01CF3E82D00689E6D /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D0B7BF1CF3E82D00689E6D /* Player.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -62,12 +65,15 @@
 		15FC748B1CE17B3C008C4175 /* PodcastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FC748F1CE17B3C008C4175 /* PodcastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastAppUITests.swift; sourceTree = "<group>"; };
 		15FC74911CE17B3C008C4175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8C67511D0EF06C00E07A5D /* FrameWorksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameWorksTableViewController.swift; sourceTree = "<group>"; };
+		2C8C67531D0EF07700E07A5D /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		2C8C67551D0EF08000E07A5D /* AutoriaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoriaTableViewController.swift; sourceTree = "<group>"; };
+		2C8C67571D0EF0DA00E07A5D /* More.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
 		7650CA7D64805C1916D987CF /* Pods_PodcastAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodcastAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDED0A1373F4D3C9AE45FC0 /* Pods-PodcastAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodcastAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodcastAppTests/Pods-PodcastAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		F2D0B7B51CF3E7CA00689E6D /* Podcasts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Podcasts.storyboard; sourceTree = "<group>"; };
 		F2D0B7B81CF3E7F800689E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Favorites.storyboard; sourceTree = "<group>"; };
 		F2D0B7BA1CF3E80900689E6D /* Library.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
-		F2D0B7BD1CF3E81D00689E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/More.storyboard; sourceTree = "<group>"; };
 		F2D0B7BF1CF3E82D00689E6D /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
 		FBF188F40904D1D2EA29A082 /* Pods-PodcastAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodcastAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodcastAppTests/Pods-PodcastAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +185,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2C8C67501D0EEFB500E07A5D /* MoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C8C67551D0EF08000E07A5D /* AutoriaTableViewController.swift */,
+				2C8C67531D0EF07700E07A5D /* MoreViewController.swift */,
+				2C8C67511D0EF06C00E07A5D /* FrameWorksTableViewController.swift */,
+			);
+			name = MoreViewController;
+			sourceTree = "<group>";
+		};
 		5F9D2C53EE180D83258E338A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +224,7 @@
 		F2D0B7B31CF3E34700689E6D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C8C67501D0EEFB500E07A5D /* MoreViewController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -215,13 +232,13 @@
 		F2D0B7B41CF3E35B00689E6D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2C8C67571D0EF0DA00E07A5D /* More.storyboard */,
 				15FC74781CE17B3C008C4175 /* LaunchScreen.storyboard */,
 				15FC74701CE17B3C008C4175 /* Main.storyboard */,
 				F2D0B7B51CF3E7CA00689E6D /* Podcasts.storyboard */,
 				F2D0B7B71CF3E7F800689E6D /* Favorites.storyboard */,
 				F2D0B7BF1CF3E82D00689E6D /* Player.storyboard */,
 				F2D0B7BA1CF3E80900689E6D /* Library.storyboard */,
-				F2D0B7BC1CF3E81D00689E6D /* More.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -334,8 +351,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15FC747A1CE17B3C008C4175 /* LaunchScreen.storyboard in Resources */,
+				2C8C67581D0EF0DA00E07A5D /* More.storyboard in Resources */,
 				15FC74771CE17B3C008C4175 /* Assets.xcassets in Resources */,
-				F2D0B7BE1CF3E81D00689E6D /* More.storyboard in Resources */,
 				15FC74721CE17B3C008C4175 /* Main.storyboard in Resources */,
 				F2D0B7B61CF3E7CA00689E6D /* Podcasts.storyboard in Resources */,
 				F2D0B7C01CF3E82D00689E6D /* Player.storyboard in Resources */,
@@ -416,6 +433,9 @@
 				154394EB1D02776500736EAF /* ConsumeAPI.swift in Sources */,
 				15FC74751CE17B3C008C4175 /* PodcastApp.xcdatamodeld in Sources */,
 				154394ED1D027E3200736EAF /* Reachability.swift in Sources */,
+				2C8C67561D0EF08000E07A5D /* AutoriaTableViewController.swift in Sources */,
+				2C8C67541D0EF07700E07A5D /* MoreViewController.swift in Sources */,
+				2C8C67521D0EF06C00E07A5D /* FrameWorksTableViewController.swift in Sources */,
 				15FC746D1CE17B3C008C4175 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,14 +496,6 @@
 				F2D0B7B81CF3E7F800689E6D /* Base */,
 			);
 			name = Favorites.storyboard;
-			sourceTree = "<group>";
-		};
-		F2D0B7BC1CF3E81D00689E6D /* More.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2D0B7BD1CF3E81D00689E6D /* Base */,
-			);
-			name = More.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
